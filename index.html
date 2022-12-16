@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let me count for you</title>
+    <link href="https://fonts.googleapis.com/css?family=JetBrains+Mono:100,200,300,regular,500,600,700,800,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <div class="container">
+            <h1>Let me count for you</h1>
+            <div class="divider-line">
+                <img src="img/Line.svg">
+            </div>
+        </div>
+        
+        <section class="input container">
+            <div class="input__flex-wrap">
+                <div class="input__first-date">
+                    <p class="firstInput__text">Input first <br> date here</p>
+                    <img src="img/Arrow-Left.svg"> 
+                    <input class="first-date" type="text" placeholder="day, month, year">
+                </div>
+                <div class="input__second-date">
+                    <p class="secondInput__text">Input second <br> date here</p>
+                    <img src="img/Arrow-Left.svg"> 
+                    <input class="second-date" type="text" placeholder="day, month, year">
+                </div>
+                <button type="button" class="input__submit">Submit</button>
+            </div>
+            <div class="divider-line">
+                <img src="img/Line.svg">
+            </div>
+        </section>
+
+        <section class="preset-timeframe">
+            <h2>Do you want to use ready time frame from first date?</h2>
+            <button type="button" class="preset-timeframe__week">Week</button>
+            <button type="button" class="preset-timeframe__month">Month</button>
+            <div class="divider-line">
+                <img src="img/Line.svg">
+            </div>
+        </section>
+
+        <section class="days-to-show">
+            <h2>What days to show?</h2>
+            <button type="button" class="days-to-show__all-days">All days</button>
+            <button type="button" class="days-to-show__working-days">Working days</button>
+            <button type="button" class="days-to-show__weekdays">Weekends</button>
+            <div class="divider-line">
+                <img src="img/Line.svg">
+            </div>
+        </section>
+
+        <section class="time-units">
+            <h2>What to count?</h2>
+            <button type="button" class="time-units__seconds">Seconds</button>
+            <button type="button" class="time-units__minutes">Minutes</button>
+            <button type="button" class="time-units__hours">Hours</button>
+            <button type="button" class="time-units__days">Days</button>
+            <div class="divider-line">
+                <img src="img/Line.svg">
+            </div>
+        </section>
+
+        <section class="result">
+            <h2>Your result:</h2>
+            <p class="result__couned"></p>
+        </section>
+
+        <section class="last-results">
+            <button type="button" class="last-results__show">See last results</button>
+            <div class="divider-line">
+                <img src="img/Line.svg">
+            </div>
+            <div class="last-results__table-of-results"></div>
+                <p class="last-results__first-date"></p>
+                <p class="last-results__second-date"></p>
+                <p class="last-results__time-units"></p>
+                <p class="last-results__result"></p>
+            </div>
+        </section>
+    </body>
+</html>

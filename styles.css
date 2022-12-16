@@ -1,0 +1,49 @@
+body {
+    background-color: #FEFFBE;
+    font-family: JetBrains Mono;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 74px;
+    margin-bottom: 0;
+}
+
+button {
+    width: 200px;
+    height: 60px;  
+    background: #000000;
+    color: #ffffff;
+    font-family: JetBrains Mono;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+    border: none;
+}
+
+button:hover {
+    background: #FEFFBE;
+    border: 4px solid #000000;
+    color: #000000;
+}
+
+button:active {
+    background: lightgray;
+}
+
+input {
+    font-family: JetBrains Mono;
+}
+
+h2 {
+    padding-bottom: 25px;
+}
+
+.divider-line {
+    padding: 50px 0 50px 0;
+}
+
+.input__first-date, .input__second-date {
+    padding-bottom: 25px;
+}
